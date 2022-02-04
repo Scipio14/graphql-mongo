@@ -1,4 +1,6 @@
+//Importing the dog model
 import { Dog } from "./models/dog";
+//defining my resolvers for queries and mutations
 export const resolvers = {
   Query: {
     hello: () => "Hello World!!",
